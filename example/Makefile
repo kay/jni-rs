@@ -1,10 +1,10 @@
 java_run: lib
-	javac HelloWorld.java && java -Djava.library.path=mylib/target/debug/ HelloWorld
+	javac LongToDoubleSwissTable.java && java -Djava.library.path=mylib/target/debug/ LongToDoubleSwissTable
 
 .PHONY: lib
 
 javah:
-	javah HelloWorld
+	javah LongToDoubleSwissTable
 
 lib:
 	cd mylib && cargo build

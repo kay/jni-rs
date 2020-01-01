@@ -6,6 +6,7 @@ edition = "2018"
 
 [dependencies]
 jni = { path = "../../" }
+hashbrown = "0.6"
 
 [lib]
 crate_type = ["cdylib"]
